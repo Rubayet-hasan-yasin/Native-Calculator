@@ -4,24 +4,25 @@ import { StyleSheet, Text, View } from 'react-native';
 const Screen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>odddsdfasdf</Text>
+            <Text style={styles.text}>50+6</Text>
         </View>
     );
 };
 
 
+
 const styles = StyleSheet.create({
     container: {
         height: '30%',
-        borderColor: '#fff',
-        borderWidth: 2,
+        borderBlockColor: '#fff',
         justifyContent: 'flex-end',
-        alignItems: 'flex-end'
+        alignItems: 'flex-end',
+        
     },
-    text: {
+    text:{
         color: '#FFF',
-        fontSize: 30,
+        fontSize: 50,
+
     }
 })
-
 export default Screen;

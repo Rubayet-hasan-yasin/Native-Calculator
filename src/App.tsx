@@ -24,9 +24,10 @@ const App = () => {
 
 const styles = StyleSheet.create({
   container:{
-    height: '100%',
-    backgroundColor: '#000',
-    flexDirection: 'column-reverse',
+    height: "100%",
+    backgroundColor: '#000000',
+    // borderWidth: 1,
+    // borderColor: '#FFF'
   }
 })
 
