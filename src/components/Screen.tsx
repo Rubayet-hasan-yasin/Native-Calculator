@@ -1,11 +1,26 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
 
-const Screen = () => {
+
+type ScreenProps = {
+    values: string,
+    total: string
+}
+
+
+const Screen = ({ values, total }: ScreenProps) => {
     return (
+
         <View style={styles.container}>
-            <Text style={styles.text}>50+6</Text>
+            <ScrollView contentContainerStyle={styles.scrollContainer}>
+                <Text style={styles.text}>{values}</Text>
+                {total !== '' && <Text style={styles.text}>={total}</Text>}
+            </ScrollView>
         </View>
+        // <View style={styles.container}>
+        //     <Text style={styles.text}>{values}</Text>
+        //     {total !== '' && <Text style={styles.text}>{total}</Text>}
+        // </View>
     );
 };
 
@@ -14,15 +29,29 @@ const Screen = () => {
 const styles = StyleSheet.create({
     container: {
         height: '30%',
-        borderBlockColor: '#fff',
-        justifyContent: 'flex-end',
-        alignItems: 'flex-end',
-        
+        backgroundColor: '#000',
     },
-    text:{
+    scrollContainer: {
+        minHeight: '100%',
+        alignItems: 'flex-end',
+        justifyContent: 'flex-end',
+    },
+    text: {
         color: '#FFF',
         fontSize: 50,
 
     }
+    // container: {
+    //     height: '30%',
+    //     borderBlockColor: '#fff',
+    //     justifyContent: 'flex-end',
+    //     alignItems: 'flex-end',
+
+    // },
+    // text: {
+    //     color: '#FFF',
+    //     fontSize: 50,
+
+    // }
 })
 export default Screen;
