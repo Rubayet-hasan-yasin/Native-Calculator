@@ -7,7 +7,6 @@ const App = () => {
   const [values, setValues] = useState<string>('');
   const [total, setTotal] = useState('');
 
-console.log("vv", values);
 
 
   const handleCalulate = (value: string) => {
