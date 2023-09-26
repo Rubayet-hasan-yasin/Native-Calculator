@@ -158,19 +158,19 @@ const AllButtons = ({ handleCalulate }:any) => {
 
 const styles = StyleSheet.create({
     container: {
-        height: '70%',
         flexDirection: 'row',
         gap: 1,
+        flex: 7,
     },
     column: {
-        width: "24.83%",
+        flex: 1,
         gap: 1,
     },
     button: {
         backgroundColor: '#040D12',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '19.84%',
+        flex: 1,
     },
     text: {
         color: '#FFF',
@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
         fontWeight: '700',
     },
     bigButton: {
-        height: '39.84%',
+        flex: 2,
         backgroundColor: '#331D2C'
     },
 })

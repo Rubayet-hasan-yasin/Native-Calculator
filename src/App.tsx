@@ -78,7 +78,7 @@ const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle={'dark-content'} />
-      <View >
+      <View style={styles.componentContainer}>
         <Screen values={values} total={total} />
 
         <AllButtons handleCalulate={handleCalulate} />
@@ -90,10 +90,11 @@ const App = () => {
 
 const styles = StyleSheet.create({
   container: {
-    height: "100%",
+    flex: 1,
     backgroundColor: '#000000',
-    // borderWidth: 1,
-    // borderColor: '#FFF'
+  },
+  componentContainer:{
+    flex: 10,
   }
 })
 

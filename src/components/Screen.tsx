@@ -17,10 +17,7 @@ const Screen = ({ values, total }: ScreenProps) => {
                 {total !== '' && <Text style={styles.text}>={total}</Text>}
             </ScrollView>
         </View>
-        // <View style={styles.container}>
-        //     <Text style={styles.text}>{values}</Text>
-        //     {total !== '' && <Text style={styles.text}>{total}</Text>}
-        // </View>
+
     );
 };
 
@@ -28,7 +25,8 @@ const Screen = ({ values, total }: ScreenProps) => {
 
 const styles = StyleSheet.create({
     container: {
-        height: '30%',
+        // height: '30%',
+        flex: 3,
         backgroundColor: '#000',
     },
     scrollContainer: {
@@ -41,17 +39,5 @@ const styles = StyleSheet.create({
         fontSize: 50,
 
     }
-    // container: {
-    //     height: '30%',
-    //     borderBlockColor: '#fff',
-    //     justifyContent: 'flex-end',
-    //     alignItems: 'flex-end',
-
-    // },
-    // text: {
-    //     color: '#FFF',
-    //     fontSize: 50,
-
-    // }
 })
 export default Screen;
