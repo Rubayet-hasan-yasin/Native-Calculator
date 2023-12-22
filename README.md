@@ -5,12 +5,13 @@ Welcome to my React Native Calculator app project! 🚀 This simple yet powerful
 ## Preview
 
 ### Basic Calculator
-![8c6b9a15-627b-4832-8d60-07196f49d279](https://github.com/Rubayet-hasan-yasin/Native-Calculator/assets/89850213/0d2fef3e-fb25-4b14-a667-a15646431e3c)
+<img src="https://github.com/Rubayet-hasan-yasin/Native-Calculator/assets/89850213/03793d11-8b32-4932-8a1a-d592be0d9acd" alt="gif" height="300"/>
 
 
 ### Advanced Functions
+<img src="https://github.com/Rubayet-hasan-yasin/Native-Calculator/assets/89850213/be78d65d-47af-4e3c-adbc-ab901c58508b" alt="gif" height="300"/>
 
-![Advanced Functions]( [GIF_LINK_2] )
+
 
 ## Features
 
