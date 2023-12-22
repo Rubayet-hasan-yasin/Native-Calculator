@@ -1,3 +1,33 @@
+# React Native Calculator App
+
+Welcome to my React Native Calculator app project! 🚀 This simple yet powerful calculator is built using React Native CLI.
+
+## Preview
+
+### Basic Calculator
+
+![Basic Calculator]( [GIF_LINK_1] )
+
+### Advanced Functions
+
+![Advanced Functions]( [GIF_LINK_2] )
+
+## Features
+
+- ✨ Clean and intuitive user interface.
+- 🧮 Support for basic arithmetic operations.
+- 🔍 Advanced functions for more complex calculations.
+- 📱 Cross-platform compatibility with React Native.
+
+
+
+
+
+
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started

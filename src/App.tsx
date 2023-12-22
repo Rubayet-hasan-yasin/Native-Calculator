@@ -41,6 +41,9 @@ const App = () => {
       case '*':
       case '-':
       case '+':
+        if(!values.length){
+          break;
+        }
         if(values.endsWith(value)){
           setValues(values)
         }
@@ -64,7 +67,7 @@ const App = () => {
 
       default:
         if(total){
-          setValues(total + value);
+          setValues(value);
           setTotal('')
         }
         else{
