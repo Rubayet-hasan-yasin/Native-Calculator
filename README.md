@@ -6,7 +6,7 @@ Welcome to my React Native Calculator app project! 🚀 This simple yet powerful
 
 ### Basic Calculator
 
-![Basic Calculator]( [GIF_LINK_1] )
+![Basic Calculator]( https://github.com/Rubayet-hasan-yasin/Native-Calculator/assets/89850213/08b294ba-d29a-491b-b64b-677bdfcf6369 )
 
 ### Advanced Functions
 
